@@ -1,9 +1,10 @@
 {
     "name": "splatter-plot",
-    "version": "0.0.1",
-    "homepage" :"https://khrome.github.io/splatter-plot/index.html",
-    "main":"splatterplot.js",
+    "version": "0.1.0",
+    "homepage": "https://khrome.github.io/splatter-plot/index.html",
+    "main": "splatterplot.js",
     "dependencies": {
+        "async": "^2.6.1",
         "extended-emitter": "^1.0.2",
         "snapsvg": "^0.5.1"
     },
@@ -20,9 +21,16 @@
     "engines": {
         "node": "*"
     },
-    "keywords" :["ring", "svg", "circle", "circular", "layout", "snapsvg"],
+    "keywords": [
+        "ring",
+        "svg",
+        "circle",
+        "circular",
+        "layout",
+        "snapsvg"
+    ],
     "description": "Layout elements using concentric rings in JS + SVG",
-    "scripts":{
-        "build" : "browserify splatterplot.js -o dist/SplatterPlot.js"
+    "scripts": {
+        "build": "browserify splatterplot.js -o dist/SplatterPlot.js"
     }
 }
