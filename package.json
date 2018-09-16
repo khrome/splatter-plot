@@ -1,0 +1,28 @@
+{
+    "name": "splatter-plot",
+    "version": "0.0.1",
+    "homepage" :"https://khrome.github.io/splatter-plot/index.html",
+    "main":"splatterplot.js",
+    "dependencies": {
+        "extended-emitter": "^1.0.2",
+        "snapsvg": "^0.5.1"
+    },
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/khrome/splatter-plot/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/khrome/splatter-plot.git"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "keywords" :["ring", "svg", "circle", "circular", "layout", "snapsvg"],
+    "description": "Layout elements using concentric rings in JS + SVG",
+    "scripts":{
+        "build" : "browserify splatterplot.js -o dist/SplatterPlot.js"
+    }
+}
