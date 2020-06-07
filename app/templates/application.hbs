@@ -1,0 +1,19 @@
+<app-header reveals>
+  <app-toolbar>
+    <paper-icon-button
+      icon="menu"
+      onclick="document.getElementById(drawer).toggle()"
+    ></paper-icon-button>
+    <div class="title" main-title>Outsider.Industries</div>
+  </app-toolbar>
+  {{log model}}
+  <div class="content">
+    {{outlet}}
+  </div>
+  <footer>
+    &copy;{{model.range}} Abbey Hawk Sparrow
+  </footer>
+</app-header>
+<app-drawer id="drawer" swipe-open>
+  {{partial sidebar}}
+</app-drawer>
