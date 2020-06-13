@@ -1,0 +1,28 @@
+<svg id="panel_two" class="demo_panel"></svg>
+<div class="code_block">
+    <CodeBlock @code="
+    var plot2 = new Splatter.Plot({
+        selector: '#panel_two',
+        shells: 5,
+        radius: 50,
+        offset: 10,
+        spacing: 30,
+        margin: 20
+    });
+    var images = [
+        'images/ladmo.png',
+        'images/dobbs.png',
+        'images/turtles.png'
+    ];
+    for(var lcv=0; lcv< plot2.length; lcv++){
+        plot2.add(new Splatter.ImageNode({
+            src :images[Math.floor(Math.random()*images.length)]
+        }));
+    }" @language="javascript"/>
+</div>
+<div class="desc">
+    [<a href="https://en.wikipedia.org/wiki/Church_of_the_SubGenius">Bob Dobbs</a>]
+    [<a href="https://en.wikipedia.org/wiki/Turtle%27s_Records_%26_Tapes">Turtles</a>]
+    [<a href="https://archive.info-mac.org/game/bolo/ladmo-060.hqx">Ladmo</a>]
+</div>
+{{outlet}}

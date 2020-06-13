@@ -7,7 +7,7 @@ import exPanda from 'ex-panda';
 export default Route.extend({
     model : function(params){
         return new Promise(function(resolve){
-            var origin = 2020;
+            var origin = 2010;
             var year = (new Date()).getFullYear();
             resolve({ range : year === origin?year:origin+'-'+year });
         });

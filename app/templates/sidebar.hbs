@@ -1,0 +1,29 @@
+<div  class="sidebar">
+  <div  class="sidebar-content">
+    <ex-panda-list
+      id="list-root"
+      orientation="vertical"
+    >
+      <ex-panda-group
+        name="Classic Examples"
+        color="#111111"
+        font="italic small-caps bold 1.2em 'Quicksand', sans-serif;"
+        back_font="italic small-caps bold 0.6em 'Quicksand', sans-serif;"
+        bg="linear-gradient(-30deg, #555555, #CCCCCC);"
+      >
+        {{#link-to 'demo-one'}}
+            <ex-panda-item name="Shapes Demo" ></ex-panda-item>
+        {{/link-to}}
+        {{#link-to 'demo-two'}}
+            <ex-panda-item name="Images Demo" ></ex-panda-item>
+        {{/link-to}}
+        {{#link-to 'demo-three'}}
+            <ex-panda-item name="Random By Shell" ></ex-panda-item>
+        {{/link-to}}
+        {{#link-to 'demo-four'}}
+            <ex-panda-item name="Random" ></ex-panda-item>
+        {{/link-to}}
+      </ex-panda-group>
+    </ex-panda-list>
+  </div>
+</div>

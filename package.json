@@ -1,5 +1,5 @@
 {
-  "name": "splatter-plot",
+  "name": "splatter-plot-website",
   "version": "0.0.0",
   "private": true,
   "description": "Small description for splatter-plot goes here",
@@ -40,6 +40,7 @@
     "ember-href-to": "^3.1.0",
     "ember-load-initializers": "^2.0.0",
     "ember-maybe-import-regenerator": "^0.1.6",
+    "ember-prism": "^0.6.1",
     "ember-qunit": "^4.4.1",
     "ember-resolver": "^5.0.1",
     "ember-source": "~3.12.0",
@@ -57,7 +58,9 @@
     "@polymer/app-layout": "^3.1.0",
     "@polymer/iron-icons": "^3.0.1",
     "@polymer/paper-icon-button": "^3.0.2",
-    "ex-panda": "0.0.6",
-    "scss-textures": "^0.1.1"
+    "ex-panda": "^0.1.0",
+    "highlight.js": "^10.1.0",
+    "scss-textures": "^0.1.1",
+    "splatter-plot": "^0.1.2"
   }
 }
