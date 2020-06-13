@@ -1,7 +1,7 @@
 {
     "name": "splatter-plot",
-    "version": "0.1.2",
-    "homepage": "https://khrome.github.io/splatter-plot/index.html",
+    "version": "0.1.3",
+    "homepage": "https://khrome.github.io/splatter-plot/",
     "main": "splatterplot.js",
     "dependencies": {
         "async": "^2.6.1",
