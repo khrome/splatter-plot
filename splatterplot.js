@@ -9,9 +9,13 @@
  *                                                 |_|
  ************************************************************************/
 
-window.Splatter = {
+var ob = {
     'Plot': require('./plot'),
     'Node': require('./node'),
     'ShapeNode' : require('./shape-node'),
     'ImageNode' : require('./image-node')
 };
+
+window.Splatter = ob;
+
+module.exports = ob;

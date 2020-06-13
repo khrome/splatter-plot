@@ -1,12 +1,12 @@
 {
     "name": "splatter-plot",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "homepage": "https://khrome.github.io/splatter-plot/index.html",
     "main": "splatterplot.js",
     "dependencies": {
         "async": "^2.6.1",
         "extended-emitter": "^1.0.2",
-        "snapsvg": "^0.5.1"
+        "snapsvg-cjs": "0.0.6"
     },
     "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
     "contributors": [],

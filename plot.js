@@ -1,11 +1,11 @@
 (function (root, factory){
     if(typeof define === 'function' && define.amd){//AMD
-        define(['async', 'extended-emitter', 'snapsvg', './shell'], factory);
+        define(['async', 'extended-emitter', 'snapsvg-cjs', './shell'], factory);
     }else if (typeof module === 'object' && module.exports){ //CommonJS/Node
         module.exports = factory(
             require('async'),
             require('extended-emitter'),
-            require('snapsvg'),
+            require('snapsvg-cjs'),
             require('./shell')
         );
     }else{ //Globals

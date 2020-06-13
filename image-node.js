@@ -1,8 +1,8 @@
 (function (root, factory){
     if(typeof define === 'function' && define.amd){//AMD
-        define(['./node', 'snapsvg'], factory);
+        define(['./node', 'snapsvg-cjs'], factory);
     }else if (typeof module === 'object' && module.exports){ //CommonJS/Node
-        module.exports = factory(require('./node'), require('snapsvg'));
+        module.exports = factory(require('./node'), require('snapsvg-cjs'));
     }else{ //Globals
         root.SplatterPlotShapeNode = factory(root.SplatterPlotNode, root.Snap);
     }
